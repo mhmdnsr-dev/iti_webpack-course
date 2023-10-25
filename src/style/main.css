@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("../../src/assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf")
+    format("ttf");
+}
+
+* {
+  border: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+body {
+  font-family: "MyFont";
+  text-align: center;
+}
+
+#container1 {
+  background-image: url("../../src/assets/images/usgs-XFWg9u0TYs4-unsplash.jpg");
+  margin: 20px auto;
+}
+
+#container1,
+#container2 img {
+  width: 200px;
+  height: 200px;
+}
